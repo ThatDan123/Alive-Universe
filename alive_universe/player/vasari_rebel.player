@@ -1,0 +1,4145 @@
+{
+    "version": 0,
+    "race": "vasari",
+    "home_planet":
+    {
+        "random_fixture_filling": "random_ferrous_home_planet",
+        "levels": [
+        {
+            "income_rates":
+            {
+                "metal": 2.0,
+                "crystal": 2.0
+            },
+            "modifier_values":
+            {
+                "max_civilian_structure_slots":
+                {
+                    "additive": 3.0
+                },
+                "max_military_structure_slots":
+                {
+                    "additive": 10.0
+                },
+                "max_health_points":
+                {
+                    "additive": 2000.0
+                }
+            }
+        }],
+        "emergent_starting_planet_components": [
+            "vasari_alliance_consulate"
+        ],
+        "starting_is_colonized": false,
+        "starting_militia_supply": 40,
+        "establish_price":
+        {
+            "metal": 1600.0,
+            "crystal": 1600.0
+        }
+    },
+    "influence":
+    {
+        "reveal_npc_point_costs": [1, 2, 3, 4, 5, 6]
+    },
+    "planet_levels": [
+    {
+        "upgrade_price":
+        {
+            "metal": 120,
+            "crystal": 60
+        },
+        "upgrade_duration": 30.0,
+        "experience_given_on_bombed_to_neutral": 100.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 180,
+            "crystal": 90
+        },
+        "upgrade_duration": 40.0,
+        "experience_given_on_bombed_to_neutral": 200.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 240,
+            "crystal": 120
+        },
+        "upgrade_duration": 50.0,
+        "experience_given_on_bombed_to_neutral": 300.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 300,
+            "crystal": 150
+        },
+        "upgrade_duration": 60.0,
+        "experience_given_on_bombed_to_neutral": 400.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 360,
+            "crystal": 180
+        },
+        "upgrade_duration": 70.0,
+        "experience_given_on_bombed_to_neutral": 500.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 420,
+            "crystal": 210
+        },
+        "upgrade_duration": 80.0,
+        "experience_given_on_bombed_to_neutral": 600.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 480,
+            "crystal": 240
+        },
+        "upgrade_duration": 90.0,
+        "experience_given_on_bombed_to_neutral": 700.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 540,
+            "crystal": 270
+        },
+        "upgrade_duration": 100.0,
+        "experience_given_on_bombed_to_neutral": 800.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 570,
+            "crystal": 285
+        },
+        "upgrade_duration": 105.0,
+        "experience_given_on_bombed_to_neutral": 900.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 600,
+            "crystal": 300
+        },
+        "upgrade_duration": 110.0,
+        "experience_given_on_bombed_to_neutral": 1000.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 630,
+            "crystal": 315
+        },
+        "upgrade_duration": 115.0,
+        "experience_given_on_bombed_to_neutral": 1100.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 660,
+            "crystal": 330
+        },
+        "upgrade_duration": 120.0,
+        "experience_given_on_bombed_to_neutral": 1200.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 690,
+            "crystal": 345
+        },
+        "upgrade_duration": 125.0,
+        "experience_given_on_bombed_to_neutral": 1300.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 720,
+            "crystal": 360
+        },
+        "upgrade_duration": 130.0,
+        "experience_given_on_bombed_to_neutral": 1400.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 750,
+            "crystal": 375
+        },
+        "upgrade_duration": 135.0,
+        "experience_given_on_bombed_to_neutral": 1500.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 780,
+            "crystal": 390
+        },
+        "upgrade_duration": 140.0,
+        "experience_given_on_bombed_to_neutral": 1600.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 795,
+            "crystal": 405
+        },
+        "upgrade_duration": 145.0,
+        "experience_given_on_bombed_to_neutral": 1700.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 810,
+            "crystal": 420
+        },
+        "upgrade_duration": 150.0,
+        "experience_given_on_bombed_to_neutral": 1800.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 825,
+            "crystal": 435
+        },
+        "upgrade_duration": 155.0,
+        "experience_given_on_bombed_to_neutral": 1900.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 840,
+            "crystal": 450
+        },
+        "upgrade_duration": 160.0,
+        "experience_given_on_bombed_to_neutral": 2000.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 855,
+            "crystal": 465
+        },
+        "upgrade_duration": 165.0,
+        "experience_given_on_bombed_to_neutral": 2100.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 870,
+            "crystal": 480
+        },
+        "upgrade_duration": 170.0,
+        "experience_given_on_bombed_to_neutral": 2200.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 885,
+            "crystal": 495
+        },
+        "upgrade_duration": 175.0,
+        "experience_given_on_bombed_to_neutral": 2300.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 900,
+            "crystal": 510
+        },
+        "upgrade_duration": 180.0,
+        "experience_given_on_bombed_to_neutral": 2400.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 915,
+            "crystal": 525
+        },
+        "upgrade_duration": 185.0,
+        "experience_given_on_bombed_to_neutral": 2500.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 930,
+            "crystal": 540
+        },
+        "upgrade_duration": 190.0,
+        "experience_given_on_bombed_to_neutral": 2600.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 945,
+            "crystal": 555
+        },
+        "upgrade_duration": 195.0,
+        "experience_given_on_bombed_to_neutral": 2700.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 960,
+            "crystal": 570
+        },
+        "upgrade_duration": 200.0,
+        "experience_given_on_bombed_to_neutral": 2800.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 975,
+            "crystal": 585
+        },
+        "upgrade_duration": 205.0,
+        "experience_given_on_bombed_to_neutral": 2900.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 990,
+            "crystal": 600
+        },
+        "upgrade_duration": 210.0,
+        "experience_given_on_bombed_to_neutral": 3000.0
+    }],
+    "planet_surveying_levels": [
+    {
+        "upgrade_price":
+        {
+            "metal": 60.0,
+            "crystal": 90.0
+        },
+        "upgrade_duration": 60.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 120.0,
+            "crystal": 180.0
+        },
+        "upgrade_duration": 120.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 240.0,
+            "crystal": 360.0
+        },
+        "upgrade_duration": 180.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 360.0,
+            "crystal": 540.0
+        },
+        "upgrade_duration": 240.0
+    },
+    {
+        "upgrade_price":
+        {
+            "metal": 480.0,
+            "crystal": 720.0
+        },
+        "upgrade_duration": 300.0
+    }],
+    "starting_units_in_hyperspace":
+    {
+        "required_units": [
+        {
+            "unit": "vasari_colony_capital_ship",
+            "options":
+            {
+                "is_temporary_ruler_ship": true,
+                "forced_leveled_up_ability": "vasari_colony_capital_ship_colonize",
+                "items": [
+                    "vasari_rebel_exodus_package"]
+            }
+        },
+        {
+            "unit": "vasari_light_frigate",
+            "count": [3, 3]
+        },
+        {
+            "unit": "vasari_scout_corvette",
+            "count": [2, 2]
+        }]
+    },
+    "starting_npc_detection":
+    {
+        "all_friendly": true
+    },
+    "starting_units_in_hyperspace_duration": 6.0,
+    "fleet": "vasari_fleet",
+    "fleet_name_group": "fleet",
+    "unit_build_groups": [
+    {
+        "id": "corvette",
+        "name": "unit_build_group_name.corvette",
+        "column_count": 2
+    },
+    {
+        "id": "frigate",
+        "name": "unit_build_group_name.frigate",
+        "column_count": 2
+    },
+    {
+        "id": "cruiser",
+        "name": "unit_build_group_name.cruiser",
+        "column_count": 3
+    },
+    {
+        "id": "capital_ship",
+        "name": "unit_build_group_name.capital_ship",
+        "column_count": 3
+    },
+    {
+        "id": "titan",
+        "name": "unit_build_group_name.titan",
+        "column_count": 1
+    }],
+    "buildable_units": [
+        "vasari_scout_corvette",
+        "vasari_light_frigate",
+        "vasari_colony_cruiser",
+        "vasari_heavy_cruiser",
+        "vasari_long_range_frigate",
+        "vasari_carrier_cruiser",
+        "vasari_raider_corvette",
+        "vasari_anticorvette_corvette",
+        "vasari_antiarmor_cruiser",
+        "vasari_siege_cruiser",
+        "vasari_overseer_cruiser",
+        "vasari_fabricator_cruiser",
+        "vasari_battle_capital_ship",
+        "vasari_colony_capital_ship",
+        "vasari_carrier_capital_ship",
+        "vasari_marauder_capital_ship",
+        "vasari_siege_capital_ship",
+        "vasari_rebel_titan"
+    ],
+    "faction_buildable_units": [
+        "vasari_rebel_titan"
+    ],
+    "buildable_strikecraft": [
+        "vasari_bomber_strikecraft"
+    ],
+    "structure_build_groups": [
+    {
+        "id": "civilian",
+        "name": "structure_build_group_name_civilian",
+        "column_count": 6,
+        "structure_slot_type": "civilian"
+    },
+    {
+        "id": "military",
+        "name": "structure_build_group_name_military",
+        "column_count": 5,
+        "structure_slot_type": "military"
+    }],
+    "structure_builder":
+    {
+        "ship": "vasari_constructor_ship",
+        "special_operation_unit_kind": "structure_builder"
+    },
+    "structures": [
+        "vasari_metal_extractor_structure",
+        "vasari_crystal_extractor_structure",
+        "vasari_factory_structure",
+        "vasari_fleet_beacon_structure",
+        "vasari_civilian_research_lab_structure",
+        "vasari_military_research_lab_structure",
+        "vasari_culture_center_structure",
+        "vasari_exotic_factory_structure",
+        "vasari_phase_synchronizer_structure",
+        "vasari_phase_gate_structure",
+        "vasari_pulse_defense_structure",
+        "vasari_repair_platform_structure",
+        "vasari_missile_defense_structure",
+        "vasari_phase_jump_inhibitor_structure",
+        "vasari_starbase"
+    ],
+    "ability_created_units": [
+        "vasari_siege_platform_frigate"
+    ],
+    "unit_limits":
+    {
+        "global": [
+        {
+            "tag": "titan",
+            "unit_limit": 1
+        }],
+        "star": [
+        {
+            "tag": "starbase",
+            "unit_limit": 4
+        }],
+        "planet": [
+        {
+            "tag": "starbase",
+            "unit_limit": 1
+        }]
+    },
+    "research":
+    {
+        "research_domains":
+        {
+            "civilian":
+            {
+                "research_tiers": [
+                {
+                    "acquire_time": 30.0,
+                    "required_research_points": 1,
+                    "price":
+                    {
+                        "metal": 175.0,
+                        "crystal": 225.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 0.6
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_0_civil"
+                },
+                {
+                    "acquire_time": 60.0,
+                    "required_research_points": 4,
+                    "price":
+                    {
+                        "metal": 350.0,
+                        "crystal": 450.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 0.6
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_1_civil"
+                },
+                {
+                    "acquire_time": 120.0,
+                    "required_research_points": 8,
+                    "price":
+                    {
+                        "metal": 700.0,
+                        "crystal": 900.0
+                    },
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 1.2
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_2_civil"
+                },
+                {
+                    "acquire_time": 180.0,
+                    "required_research_points": 15,
+                    "price":
+                    {
+                        "metal": 1400.0,
+                        "crystal": 1800.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "utility",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "crystal_income_rate",
+                            "value": 1.2
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_3_civil"
+                },
+                {
+                    "acquire_time": 240.0,
+                    "required_research_points": 25,
+                    "price":
+                    {
+                        "metal": 2800.0,
+                        "crystal": 3600.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "utility",
+                        "count": 2
+                    },
+                    {
+                        "exotic_type": "economic",
+                        "count": 1
+                    },
+                    {
+                        "exotic_type": "ultimate",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "empire_modifiers": [
+                        {
+                            "value_behavior": "additive",
+                            "modifier_type": "metal_income_rate",
+                            "value": 1.8
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_4_civil"
+                }],
+                "research_fields": [
+                {
+                    "id": "civilian_oppression",
+                    "name": "vasari_research_field_name_civilian_oppression",
+                    "picture": "vasari_research_field_picture_civilian_oppression"
+                },
+                {
+                    "id": "civilian_nanotech",
+                    "name": "vasari_research_field_name_civilian_nanotech",
+                    "picture": "vasari_research_field_picture_civilian_nanotech"
+                },
+                {
+                    "id": "civilian_phase_mastery",
+                    "name": "vasari_research_field_name_civilian_phase_mastery",
+                    "picture": "vasari_research_field_picture_civilian_phase_mastery"
+                }],
+                "full_name": "vasari_research_domain_full_name_civilian",
+                "partial_name": "vasari_research_domain_partial_name_civilian",
+                "partial_name_uppercase": "vasari_research_domain_partial_name_civilian_uppercase",
+                "research_points_name": "vasari_research_domain_research_points_name_civilian",
+                "research_rate_name": "vasari_research_domain_research_rate_name_civilian",
+                "button_background": "vasari_research_domain_button_background_civilian",
+                "compressed_research_field_picture": "vasari_research_field_picture_civilian_compressed",
+                "hud_icon": "research_civil_icon"
+            },
+            "military":
+            {
+                "research_tiers": [
+                {
+                    "acquire_time": 30.0,
+                    "required_research_points": 1,
+                    "price":
+                    {
+                        "metal": 175.0,
+                        "crystal": 225.0
+                    },
+                    "player_modifiers":
+                    {
+                        "weapon_modifiers": [
+                        {
+                            "value_behavior": "scalar",
+                            "modifier_type": "damage",
+                            "value": 0.03
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_0_military"
+                },
+                {
+                    "acquire_time": 60.0,
+                    "required_research_points": 4,
+                    "price":
+                    {
+                        "metal": 350.0,
+                        "crystal": 450.0
+                    },
+                    "player_modifiers":
+                    {
+                        "unit_modifiers": [
+                        {
+                            "modifier_type": "max_hull_points",
+                            "value_behavior": "scalar",
+                            "value": 0.03
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_1_military"
+                },
+                {
+                    "acquire_time": 120.0,
+                    "required_research_points": 8,
+                    "price":
+                    {
+                        "metal": 700.0,
+                        "crystal": 900.0
+                    },
+                    "player_modifiers":
+                    {
+                        "weapon_modifiers": [
+                        {
+                            "value_behavior": "scalar",
+                            "modifier_type": "damage",
+                            "value": 0.03
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_2_military"
+                },
+                {
+                    "acquire_time": 180.0,
+                    "required_research_points": 15,
+                    "price":
+                    {
+                        "metal": 1400.0,
+                        "crystal": 1800.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "offense",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "unit_modifiers": [
+                        {
+                            "modifier_type": "max_hull_points",
+                            "value_behavior": "scalar",
+                            "value": 0.03
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_3_military"
+                },
+                {
+                    "acquire_time": 240.0,
+                    "required_research_points": 25,
+                    "price":
+                    {
+                        "metal": 2800.0,
+                        "crystal": 3600.0
+                    },
+                    "exotic_price": [
+                    {
+                        "exotic_type": "defense",
+                        "count": 2
+                    },
+                    {
+                        "exotic_type": "offense",
+                        "count": 1
+                    },
+                    {
+                        "exotic_type": "ultimate",
+                        "count": 1
+                    }],
+                    "player_modifiers":
+                    {
+                        "weapon_modifiers": [
+                        {
+                            "modifier_type": "damage",
+                            "value_behavior": "scalar",
+                            "value": 0.03
+                        }]
+                    },
+                    "button_background": "vasari_research_tier_button_background_4_military"
+                }],
+                "research_fields": [
+                {
+                    "id": "military_revival",
+                    "name": "vasari_research_field_name_military_revival",
+                    "picture": "vasari_research_field_picture_military_revival"
+                },
+                {
+                    "id": "military_assault",
+                    "name": "vasari_research_field_name_military_assault",
+                    "picture": "vasari_research_field_picture_military_assault"
+                },
+                {
+                    "id": "military_survival",
+                    "name": "vasari_research_field_name_military_survival",
+                    "picture": "vasari_research_field_picture_military_survival"
+                },
+                {
+                    "id": "military_remnants",
+                    "name": "vasari_research_field_name_military_remnants",
+                    "picture": "vasari_research_field_picture_military_remnants"
+                }],
+                "full_name": "vasari_research_domain_full_name_military",
+                "partial_name": "vasari_research_domain_partial_name_military",
+                "partial_name_uppercase": "vasari_research_domain_partial_name_military_uppercase",
+                "research_points_name": "vasari_research_domain_research_points_name_military",
+                "research_rate_name": "vasari_research_domain_research_rate_name_military",
+                "button_background": "vasari_research_domain_button_background_military",
+                "compressed_research_field_picture": "vasari_research_field_picture_military_compressed",
+                "hud_icon": "research_military_icon"
+            }
+        },
+        "research_subjects": [
+            "vasari_all_for_one",
+            "vasari_antimatter_0",
+            "vasari_antimatter_1",
+            "vasari_antimatter_2",
+            "vasari_asteroid_extraction_rate_0",
+            "vasari_asteroid_extraction_rate_1",
+            "vasari_asteroid_extraction_rate_2",
+            "vasari_asteroid_extraction_rate_3",
+            "vasari_capital_ship_starting_level_0",
+            "vasari_capital_ship_starting_level_1",
+            "vasari_construction_price_decrease",
+            "vasari_culture_defense_boost",
+            "vasari_culture_factory_unit_build_time_bonus",
+            "vasari_culture_planet_heal",
+            "vasari_defensive_tower_unlock",
+            "vasari_defensive_tower_upgrade",
+            "vasari_friendly_jump_telemetry",
+            "vasari_global_phase_lane_detection",
+            "vasari_improve_phase_lane_detection",
+            "vasari_improve_starbase_build_time",
+            "vasari_improve_surveying_planet_track",
+            "vasari_max_supply_0",
+            "vasari_max_supply_1",
+            "vasari_max_supply_2",
+            "vasari_max_supply_3",
+            "vasari_max_supply_4",
+            "vasari_max_supply_5",
+            "vasari_planet_bombing_damage_reduction",
+            "vasari_rebel_culture_rate_0",
+            "vasari_rebel_culture_rate_1",
+            "vasari_repair_platform_structure_repair_rate_0",
+            "vasari_shock_and_awe",
+            "vasari_unlock_alliance_xeno_embassy_unit_item",
+            "vasari_unlock_antiarmor_cruiser",
+            "vasari_unlock_anticorvette_corvette",
+            "vasari_unlock_antimatter_recharger_unit_item",
+            "vasari_unlock_bazaar_unit_item",
+            "vasari_unlock_beam_boost_unit_item",
+            "vasari_unlock_build_ultimate_exotic",
+            "vasari_unlock_carrier_cruiser",
+            "vasari_unlock_crystal_refinery_unit_item",
+            "vasari_unlock_crystalline_biosphere",
+            "vasari_unlock_culture_center",
+            "vasari_unlock_dark_fleet_tower_unit_item",
+            "vasari_unlock_deploy_starbase_unit_item",
+            "vasari_unlock_desert_biosphere",
+            "vasari_unlock_engine_boost_unit_item",
+            "vasari_unlock_exotic_factory_structure",
+            "vasari_unlock_fabricator_cruiser",
+            "vasari_unlock_fabricator_cruiser_debris_reclamation_ability",
+            "vasari_unlock_fabricator_cruiser_ship_component_shop",
+            "vasari_unlock_gas_giant_biosphere",
+            "vasari_unlock_gas_harvester_unit_item",
+            "vasari_unlock_heavy_cruiser",
+            "vasari_unlock_heavy_turret_servos",
+            "vasari_unlock_hyperspace_between_stars",
+            "vasari_unlock_ice_biosphere",
+            "vasari_unlock_long_range_frigate",
+            "vasari_unlock_metal_refinery_unit_item",
+            "vasari_unlock_ocean_floor_miner_unit_item",
+            "vasari_unlock_oceanic_biosphere",
+            "vasari_unlock_orbital_administration_unit_item",
+            "vasari_unlock_overseer_cruiser",
+            "vasari_unlock_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_unlock_phase_gate_structure",
+            "vasari_unlock_phase_jump_inhibitor",
+            "vasari_unlock_phase_lane_detection",
+            "vasari_unlock_phase_missile_boost_unit_item",
+            "vasari_unlock_phase_resonance_amplifier_unit_item",
+            "vasari_unlock_phase_shield_unit_item",
+            "vasari_unlock_phase_synchronizer_structure",
+            "vasari_unlock_precise_turret_servos",
+            "vasari_unlock_raider_corvette",
+            "vasari_unlock_rebel_titan",
+            "vasari_unlock_rebel_titan_improve_gravity_pulse_unit_item",
+            "vasari_unlock_rebel_titan_improve_nano_emitters_unit_item",
+            "vasari_unlock_rebel_titan_phase_cannon_unit_item",
+            "vasari_unlock_repair_platform_structure",
+            "vasari_unlock_resource_booster_unit_item",
+            "vasari_unlock_resource_extractor_structures",
+            "vasari_unlock_self_repairing_armor_unit_item",
+            "vasari_unlock_siege_cruiser",
+            "vasari_unlock_starbase",
+            "vasari_unlock_starbase_debris_vortex_unit_item",
+            "vasari_unlock_starbase_hangar_unit_item",
+            "vasari_unlock_starbase_hyperspace_engines_unit_item",
+            "vasari_unlock_starbase_planetary_shield_array_unit_item",
+            "vasari_unlock_starbase_structural_integrity_0_unit_item",
+            "vasari_unlock_starbase_structural_integrity_1_unit_item",
+            "vasari_unlock_starbase_weapon_unit_item",
+            "vasari_unlock_strikecraft_armor_unit_item",
+            "vasari_unlock_swamp_biosphere",
+            "vasari_unlock_terran_biosphere",
+            "vasari_unlock_terran_mining_booster_unit_item",
+            "vasari_unlock_volcanic_biosphere",
+            "vasari_unlock_wave_boost_unit_item",
+            "vasari_unlock_wormhole_travel",
+            "vasari_unlock_xeno_settlement_unit_item",
+            "vasari_unstoppable_phase_jump",
+            "vasari_upgrade_bazaar_unit_item_0",
+            "vasari_upgrade_bazaar_unit_item_1",
+            "vasari_upgrade_beam_boost_unit_item",
+            "vasari_upgrade_beam_weapons_0",
+            "vasari_upgrade_beam_weapons_1",
+            "vasari_upgrade_beam_weapons_2",
+            "vasari_upgrade_beam_weapons_3",
+            "vasari_upgrade_crystalline_biosphere_0",
+            "vasari_upgrade_dark_fleet_tower_unit_item",
+            "vasari_upgrade_desert_biosphere_0",
+            "vasari_upgrade_desert_biosphere_1",
+            "vasari_upgrade_experience_gain",
+            "vasari_upgrade_fabricator_cruiser_debris_reclamation_ability",
+            "vasari_upgrade_ferrous_biosphere_1",
+            "vasari_upgrade_hull_armor_0",
+            "vasari_upgrade_hull_armor_1",
+            "vasari_upgrade_hull_armor_2",
+            "vasari_upgrade_hull_base",
+            "vasari_upgrade_hull_point_restore_rate_0",
+            "vasari_upgrade_hull_point_restore_rate_1",
+            "vasari_upgrade_hull_point_restore_rate_2",
+            "vasari_upgrade_hull_points_0",
+            "vasari_upgrade_hull_points_1",
+            "vasari_upgrade_hull_points_2",
+            "vasari_upgrade_hull_with_trader",
+            "vasari_upgrade_hyperspace_charge_time",
+            "vasari_upgrade_ice_biosphere_0",
+            "vasari_upgrade_ice_biosphere_1",
+            "vasari_upgrade_influence_0",
+            "vasari_upgrade_influence_1",
+            "vasari_upgrade_missile_damage_0",
+            "vasari_upgrade_missile_damage_1",
+            "vasari_upgrade_missile_damage_2",
+            "vasari_upgrade_npc_ability_cooldown",
+            "vasari_upgrade_oceanic_biosphere_0",
+            "vasari_upgrade_oceanic_biosphere_1",
+            "vasari_upgrade_orbital_administration_unit_item",
+            "vasari_upgrade_orbital_extraction_0",
+            "vasari_upgrade_orbital_extraction_1",
+            "vasari_upgrade_orbital_extraction_2",
+            "vasari_upgrade_overseer_cruiser_phase_lane_detection_ability",
+            "vasari_upgrade_phase_missile_boost_unit_item",
+            "vasari_upgrade_phase_missile_bypass_shields_chance",
+            "vasari_upgrade_phase_resonance_bonus_duration_0",
+            "vasari_upgrade_phase_resonance_bonus_duration_1",
+            "vasari_upgrade_planet_bombing_range",
+            "vasari_upgrade_planet_health_restore",
+            "vasari_upgrade_pulse_weapons_0",
+            "vasari_upgrade_pulse_weapons_1",
+            "vasari_upgrade_pulse_weapons_2",
+            "vasari_upgrade_pulse_weapons_3",
+            "vasari_upgrade_shields_0",
+            "vasari_upgrade_shields_1",
+            "vasari_upgrade_shields_regeneration",
+            "vasari_upgrade_shields_with_advent",
+            "vasari_upgrade_starbase_engines",
+            "vasari_upgrade_structure_build_time",
+            "vasari_upgrade_swamp_biosphere_0",
+            "vasari_upgrade_swamp_biosphere_1",
+            "vasari_upgrade_terran_biosphere_0",
+            "vasari_upgrade_terran_biosphere_1",
+            "vasari_upgrade_volcanic_biosphere_0",
+            "vasari_upgrade_volcanic_biosphere_1",
+            "vasari_upgrade_volcanic_biosphere_2",
+            "vasari_upgrade_wave_boost_unit_item",
+            "vasari_upgrade_wave_weapons_0",
+            "vasari_upgrade_wave_weapons_1",
+            "vasari_upgrade_wave_weapons_2",
+            "vasari_upgrade_wave_weapons_3"
+        ],
+        "faction_research_subjects": [
+            "vasari_culture_defense_boost",
+            "vasari_unlock_bazaar_unit_item",
+            "vasari_culture_planet_heal",
+            "vasari_all_for_one",
+            "vasari_upgrade_hull_with_trader",
+            "vasari_upgrade_shields_with_advent",
+            "vasari_culture_factory_unit_build_time_bonus",
+            "vasari_upgrade_npc_ability_cooldown",
+            "vasari_unlock_rebel_titan_improve_gravity_pulse_unit_item",
+            "vasari_unlock_rebel_titan_improve_nano_emitters_unit_item"
+        ],
+        "starting_research_subjects": []
+    },
+    "missing_ship_component_shop_build_time_scalar": 10.0,
+    "ship_components": [
+        "vasari_nano_antimatter_restore",
+        "vasari_nano_repair_kit",
+        "vasari_nano_swarm",
+        "vasari_engine_boost",
+        "vasari_phase_resonance_amplifier",
+        "vasari_wave_boost",
+        "vasari_phase_missile_boost",
+        "vasari_beam_boost",
+        "vasari_starbase_hangar_0",
+        "vasari_starbase_hangar_1",
+        "vasari_starbase_hangar_2",
+        "vasari_starbase_structural_integrity_0",
+        "vasari_starbase_structural_integrity_1",
+        "vasari_starbase_structural_integrity_2",
+        "vasari_starbase_planetary_shield_array",
+        "vasari_starbase_hyperspace_engines",
+        "vasari_starbase_debris_vortex",
+        "vasari_deploy_starbase",
+        "vasari_starbase_unlock_extra_wave_weapons",
+        "vasari_starbase_unlock_extra_phase_missile_weapons",
+        "vasari_antimatter_recharger",
+        "vasari_self_repairing_armor",
+        "vasari_strikecraft_armor",
+        "vasari_phase_shield",
+        "vasari_rebel_titan_hull_plating_0",
+        "vasari_rebel_titan_hull_plating_1",
+        "vasari_rebel_titan_hangar",
+        "vasari_rebel_titan_improve_nano_emitters",
+        "vasari_rebel_titan_improve_gravity_pulse",
+        "vasari_rebel_titan_unlock_phase_cannon_weapon",
+        "vasari_rebel_titan_unlock_extra_phase_missile_weapons"
+    ],
+    "ship_component_build_groups": [
+    {
+        "id": "offense",
+        "name": "ship_component_build_group_name_offense",
+        "column_count": 3
+    },
+    {
+        "id": "defense",
+        "name": "ship_component_build_group_name_defense",
+        "column_count": 4
+    },
+    {
+        "id": "utility",
+        "name": "ship_component_build_group_name_utility",
+        "column_count": 5
+    }],
+    "planet_components": [
+        "vasari_ocean_floor_miner",
+        "vasari_bazaar",
+        "vasari_dark_fleet_tower",
+        "vasari_defensive_tower",
+        "vasari_metal_refinery",
+        "vasari_crystal_refinery",
+        "vasari_orbital_administration",
+        "vasari_resource_booster",
+        "vasari_surface_research_lab",
+        "vasari_surface_civilian_lab_0",
+        "vasari_surface_civilian_lab_1",
+        "vasari_surface_military_lab_0",
+        "vasari_surface_military_lab_1",
+        "vasari_terran_mining_booster",
+        "vasari_gas_harvester",
+        "vasari_alliance_xeno_embassy",
+        "vasari_xeno_settlement"
+    ],
+    "faction_planet_components": [
+        "vasari_alliance_xeno_embassy",
+        "vasari_bazaar",
+        "vasari_xeno_settlement"
+    ],
+    "planet_component_build_groups": [
+    {
+        "id": "economy",
+        "name": "planet_component_build_group_name_economy",
+        "column_count": 5
+    },
+    {
+        "id": "defense",
+        "name": "planet_component_build_group_name_defense",
+        "column_count": 2
+    },
+    {
+        "id": "utility",
+        "name": "planet_component_build_group_name_utility",
+        "column_count": 4
+    }],
+    "planet_types": [
+    {
+        "planet_type": "asteroid",
+        "can_ever_be_colonized": true,
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1000.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 2000.0,
+                "health_points_restore_rate": 4.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 2,
+                "max_health_points": 200
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            }],
+            "research": [
+            {}]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "crystalline",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_crystalline_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_crystalline_biosphere_0"]
+                ],
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 4,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_crystalline_biosphere_0"]
+                ],
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 14,
+                "structure_builder_count": 4,
+                "max_health_points": 400
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "crystal_income_rate": 0.32,
+                "max_health_points": 100
+            },
+            {
+                "crystal_income_rate": 0.8,
+                "max_health_points": 200
+            },
+            {
+                "crystal_income_rate": 1.44,
+                "max_health_points": 300
+            },
+            {
+                "crystal_income_rate": 2.24,
+                "max_health_points": 400
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_crystalline_biosphere_0"]
+                ],
+                "crystal_income_rate": 3.2,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            },
+            {
+                "civilian_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "military_research_rate_scalar": 0.36
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_crystalline_biosphere_0"]
+                ],
+                "civilian_research_rate_scalar": 0.6,
+                "max_health_points": 400,
+                "military_research_rate_scalar": 0.6
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "desert",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_desert_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_desert_biosphere_0"]
+                ],
+                "max_military_structure_slots": 30,
+                "max_health_points": 7500.0,
+                "health_points_restore_rate": 15.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 4,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_desert_biosphere_0"]
+                ],
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 14,
+                "structure_builder_count": 4,
+                "max_health_points": 400
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_desert_biosphere_0"]
+                ],
+                "metal_income_rate": 1.44,
+                "crystal_income_rate": 0.96,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_desert_biosphere_1"]
+                ],
+                "metal_income_rate": 2.16,
+                "crystal_income_rate": 1.44,
+                "max_health_points": 400
+            },
+            {
+                "metal_income_rate": 3.0,
+                "crystal_income_rate": 2.0,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "military_research_rate_scalar": 0.06,
+                "max_health_points": 150,
+                "civilian_research_rate_scalar": 0.06
+            },
+            {
+                "military_research_rate_scalar": 0.18,
+                "max_health_points": 300,
+                "civilian_research_rate_scalar": 0.18
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_desert_biosphere_0"]
+                ],
+                "military_research_rate_scalar": 0.36,
+                "max_health_points": 450,
+                "civilian_research_rate_scalar": 0.36
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "ferrous",
+        "can_ever_be_colonized": true,
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ferrous_biosphere_1"]
+                ],
+                "max_military_structure_slots": 30,
+                "max_health_points": 7500.0,
+                "health_points_restore_rate": 15.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 150
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ferrous_biosphere_1"]
+                ],
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 3,
+                "max_health_points": 450
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {
+                "metal_income_rate": 0
+            },
+            {
+                "metal_income_rate": 0.48,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 1.2,
+                "max_health_points": 200
+            },
+            {
+                "metal_income_rate": 2.16,
+                "max_health_points": 300
+            },
+            {
+                "metal_income_rate": 3.36,
+                "max_health_points": 400
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ferrous_biosphere_1"]
+                ],
+                "metal_income_rate": 4.8,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "military_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "civilian_research_rate_scalar": 0.06
+            },
+            {
+                "military_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "civilian_research_rate_scalar": 0.18
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ferrous_biosphere_1"]
+                ],
+                "military_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "civilian_research_rate_scalar": 0.36
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "gas_giant",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_gas_giant_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1000.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 2000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 3500.0,
+                "health_points_restore_rate": 8.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 4,
+                "max_health_points": 300
+            },
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 14,
+                "structure_builder_count": 5,
+                "max_health_points": 400
+            },
+            {
+                "max_planet_component_slots": 5,
+                "max_civilian_structure_slots": 20,
+                "structure_builder_count": 5,
+                "max_health_points": 500
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {}],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            },
+            {
+                "civilian_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "military_research_rate_scalar": 0.36
+            },
+            {
+                "civilian_research_rate_scalar": 0.6,
+                "max_health_points": 400,
+                "military_research_rate_scalar": 0.6
+            },
+            {
+                "civilian_research_rate_scalar": 0.9,
+                "max_health_points": 500,
+                "military_research_rate_scalar": 0.9
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "ice",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_ice_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ice_biosphere_0"]
+                ],
+                "max_military_structure_slots": 30,
+                "max_health_points": 7500.0,
+                "health_points_restore_rate": 15.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ice_biosphere_0"]
+                ],
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 3,
+                "max_health_points": 300
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "crystal_income_rate": 0.32,
+                "max_health_points": 100
+            },
+            {
+                "crystal_income_rate": 0.8,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ice_biosphere_0"]
+                ],
+                "crystal_income_rate": 1.44,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ice_biosphere_1"]
+                ],
+                "crystal_income_rate": 2.24,
+                "max_health_points": 400
+            },
+            {
+                "crystal_income_rate": 3.2,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_ice_biosphere_0"]
+                ],
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "moon",
+        "can_ever_be_colonized": true,
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1000.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 2000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 3500.0,
+                "health_points_restore_rate": 8.0
+            }],
+            "logistics": [
+            {
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1,
+                "max_planet_component_slots": 2
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 2,
+                "max_health_points": 200
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            },
+            {
+                "metal_income_rate": 1.44,
+                "crystal_income_rate": 0.96,
+                "max_health_points": 300
+            }],
+            "research": [
+            {}]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "oceanic",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_oceanic_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_oceanic_biosphere_0"]
+                ],
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 4,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_oceanic_biosphere_0"]
+                ],
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 14,
+                "structure_builder_count": 4,
+                "max_health_points": 400
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_oceanic_biosphere_0"]
+                ],
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_oceanic_biosphere_1"]
+                ],
+                "metal_income_rate": 1.44,
+                "crystal_income_rate": 0.96,
+                "max_health_points": 300
+            },
+            {
+                "metal_income_rate": 2.16,
+                "crystal_income_rate": 1.44,
+                "max_health_points": 400
+            }],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            },
+            {
+                "civilian_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "military_research_rate_scalar": 0.36
+            },
+            {
+                "civilian_research_rate_scalar": 0.6,
+                "max_health_points": 400,
+                "military_research_rate_scalar": 0.6
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_oceanic_biosphere_0"]
+                ],
+                "civilian_research_rate_scalar": 0.9,
+                "max_health_points": 500,
+                "military_research_rate_scalar": 0.9
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "swamp",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_swamp_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_swamp_biosphere_0"]
+                ],
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_swamp_biosphere_0"]
+                ],
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 3,
+                "max_health_points": 300
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_swamp_biosphere_0"]
+                ],
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_swamp_biosphere_1"]
+                ],
+                "metal_income_rate": 1.44,
+                "crystal_income_rate": 0.96,
+                "max_health_points": 300
+            },
+            {
+                "metal_income_rate": 2.16,
+                "crystal_income_rate": 1.44,
+                "max_health_points": 400
+            }],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_swamp_biosphere_0"]
+                ],
+                "civilian_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "military_research_rate_scalar": 0.36
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "terran",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_terran_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_terran_biosphere_0"]
+                ],
+                "max_military_structure_slots": 30,
+                "max_health_points": 7500.0,
+                "health_points_restore_rate": 15.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 4,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_terran_biosphere_0"]
+                ],
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 14,
+                "structure_builder_count": 4,
+                "max_health_points": 400
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 0.84,
+                "crystal_income_rate": 0.56,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_terran_biosphere_0"]
+                ],
+                "metal_income_rate": 1.44,
+                "crystal_income_rate": 0.96,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_terran_biosphere_1"]
+                ],
+                "metal_income_rate": 2.16,
+                "crystal_income_rate": 1.44,
+                "max_health_points": 400
+            },
+            {
+                "metal_income_rate": 3.0,
+                "crystal_income_rate": 2.0,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "civilian_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "military_research_rate_scalar": 0.06
+            },
+            {
+                "civilian_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "military_research_rate_scalar": 0.18
+            },
+            {
+                "civilian_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "military_research_rate_scalar": 0.36
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_terran_biosphere_0"]
+                ],
+                "civilian_research_rate_scalar": 0.6,
+                "max_health_points": 400,
+                "military_research_rate_scalar": 0.6
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "volcanic",
+        "can_ever_be_colonized": true,
+        "colonization_research_prerequisites": [
+            ["vasari_unlock_volcanic_biosphere"]
+        ],
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1500.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 3000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_volcanic_biosphere_0"]
+                ],
+                "max_military_structure_slots": 20,
+                "max_health_points": 5000.0,
+                "health_points_restore_rate": 8.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 4,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 3,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_volcanic_biosphere_0"]
+                ],
+                "max_planet_component_slots": 3,
+                "max_civilian_structure_slots": 9,
+                "structure_builder_count": 3,
+                "max_health_points": 300
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.48,
+                "max_health_points": 100
+            },
+            {
+                "metal_income_rate": 1.2,
+                "max_health_points": 200
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_volcanic_biosphere_0"]
+                ],
+                "metal_income_rate": 2.16,
+                "max_health_points": 300
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_volcanic_biosphere_1"]
+                ],
+                "metal_income_rate": 3.36,
+                "max_health_points": 400
+            },
+            {
+                "metal_income_rate": 4.8,
+                "max_health_points": 500
+            }],
+            "research": [
+            {},
+            {
+                "military_research_rate_scalar": 0.06,
+                "max_health_points": 100,
+                "civilian_research_rate_scalar": 0.06
+            },
+            {
+                "military_research_rate_scalar": 0.18,
+                "max_health_points": 200,
+                "civilian_research_rate_scalar": 0.18
+            },
+            {
+                "military_research_rate_scalar": 0.36,
+                "max_health_points": 300,
+                "civilian_research_rate_scalar": 0.36
+            },
+            {
+                "prerequisites": [
+                    ["vasari_upgrade_volcanic_biosphere_0"]
+                ],
+                "military_research_rate_scalar": 0.6,
+                "max_health_points": 400,
+                "civilian_research_rate_scalar": 0.6
+            }]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    },
+    {
+        "planet_type": "pirate_base",
+        "can_ever_be_colonized": true,
+        "tracks":
+        {
+            "defense": [
+            {
+                "max_military_structure_slots": 0,
+                "max_health_points": 250,
+                "health_points_restore_rate": 1.0
+            },
+            {
+                "max_military_structure_slots": 5,
+                "max_health_points": 1000.0,
+                "health_points_restore_rate": 2.0
+            },
+            {
+                "max_military_structure_slots": 10,
+                "max_health_points": 2000.0,
+                "health_points_restore_rate": 4.0
+            },
+            {
+                "max_military_structure_slots": 20,
+                "max_health_points": 3500.0,
+                "health_points_restore_rate": 8.0
+            },
+            {
+                "max_military_structure_slots": 30,
+                "max_health_points": 5500.0,
+                "health_points_restore_rate": 15.0
+            },
+            {
+                "max_military_structure_slots": 40,
+                "max_health_points": 8000.0,
+                "health_points_restore_rate": 25.0
+            }],
+            "logistics": [
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 0,
+                "structure_builder_count": 1
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 2,
+                "structure_builder_count": 2,
+                "max_health_points": 100
+            },
+            {
+                "max_planet_component_slots": 2,
+                "max_civilian_structure_slots": 5,
+                "structure_builder_count": 2,
+                "max_health_points": 200
+            }],
+            "commerce": [
+            {}],
+            "mining": [
+            {},
+            {
+                "metal_income_rate": 0.36,
+                "crystal_income_rate": 0.24,
+                "max_health_points": 100
+            }],
+            "research": [
+            {}]
+        },
+        "trade_capacity_levels": [
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        },
+        {
+            "import_points": 0,
+            "export_points":
+            {
+                "credits": 0,
+                "metal": 0,
+                "crystal": 0
+            }
+        }]
+    }],
+    "default_starting_assets":
+    {
+        "metal": 3000,
+        "crystal": 5000
+    },
+    "default_starting_exotics": [
+    {
+        "exotic_type": "offense",
+        "count": 2
+    },
+    {
+        "exotic_type": "utility",
+        "count": 2
+    },
+    {
+        "exotic_type": "defense",
+        "count": 2
+    },
+    {
+        "exotic_type": "economic",
+        "count": 2
+    }],
+    "asteroid_extraction_rates":
+    {
+        "metal": 0.45,
+        "crystal": 0.45
+    },
+    "planet_bombing_recovery_cooldown": 30.0,
+    "colonize_starting_health_percent": 1,
+    "colonize_starting_shield_percent": 1,
+    "culture":
+    {
+        "decay_rates": [
+        {
+            "decay_rate": 0.02
+        }],
+        "propagation_rates": [
+        {
+            "propagation_rate_scalar": -2.0
+        }],
+        "friendly_unit_modifiers": [
+        {
+            "tag": "structure",
+            "modifier_type": "damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.48,
+                "prerequisites": [
+                    ["vasari_culture_defense_boost"]
+                ]
+            }]
+        }],
+        "friendly_planet_modifiers": [
+        {
+            "modifier_type": "bombing_damage_taken",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.48,
+                "prerequisites": [
+                    ["vasari_culture_defense_boost"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "factory_unit_build_time",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": -0.06,
+                "prerequisites": [
+                    ["vasari_unlock_culture_center"]
+                ]
+            },
+            {
+                "value": -0.24,
+                "prerequisites": [
+                    ["vasari_culture_factory_unit_build_time_bonus"]
+                ]
+            }]
+        },
+        {
+            "modifier_type": "health_points_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+            {
+                "value": 0.48,
+                "prerequisites": [
+                    ["vasari_culture_planet_heal"]
+                ]
+            }]
+        }]
+    },
+    "wormhole_research": [
+        ["vasari_unlock_wormhole_travel"]
+    ],
+    "hyperspace_between_stars_research": [
+        ["vasari_unlock_hyperspace_between_stars"]
+    ],
+    "buildable_exotics": [
+    {
+        "exotic_name": "defense",
+        "exotic_definition":
+        {
+            "factory_build_time": 120.0,
+            "factory_build_price":
+            {
+                "metal": 240.0,
+                "crystal": 240.0
+            }
+        }
+    },
+    {
+        "exotic_name": "economic",
+        "exotic_definition":
+        {
+            "factory_build_time": 120.0,
+            "factory_build_price":
+            {
+                "metal": 240.0,
+                "crystal": 240.0
+            }
+        }
+    },
+    {
+        "exotic_name": "offense",
+        "exotic_definition":
+        {
+            "factory_build_time": 120.0,
+            "factory_build_price":
+            {
+                "metal": 240.0,
+                "crystal": 240.0
+            }
+        }
+    },
+    {
+        "exotic_name": "utility",
+        "exotic_definition":
+        {
+            "factory_build_time": 120.0,
+            "factory_build_price":
+            {
+                "metal": 240.0,
+                "crystal": 240.0
+            }
+        }
+    },
+    {
+        "exotic_name": "ultimate",
+        "exotic_definition":
+        {
+            "factory_build_time": 240.0,
+            "factory_build_price":
+            {
+                "metal": 480.0,
+                "crystal": 480.0
+            },
+            "factory_build_prerequisites": [
+                ["vasari_unlock_build_ultimate_exotic"]
+            ]
+        }
+    }],
+    "trade":
+    {
+        "trade_income_rates":
+        {
+            "credits": 0.0,
+            "metal": 0.0,
+            "crystal": 0.0
+        },
+        "trade_ship_death_assets":
+        {
+            "credits": 50
+        },
+        "trade_ship_escorts": []
+    },
+    "phase_resonance":
+    {
+        "levels": [
+        {
+            "point_cost": 1,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.12
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.03
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.12
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 3,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.18
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.06
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.18
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 6,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.24
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.12
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.09
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.03
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.24
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.12
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 10,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.3
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.24
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.12
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.06
+                    },
+                    {
+                        "value_behavior": "additive",
+                        "modifier_type": "bypass_shields_chance",
+                        "value": 0.06,
+                        "tags": [
+                            "phasemissile"]
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.3
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.24
+                    }]
+                }
+            }
+        },
+        {
+            "point_cost": 15,
+            "tracks":
+            {
+                "movement":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "max_linear_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.36
+                    },
+                    {
+                        "modifier_type": "hyperspace_speed",
+                        "value_behavior": "scalar",
+                        "value": 0.36
+                    }]
+                },
+                "combat":
+                {
+                    "weapon_modifiers": [
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "cooldown_duration",
+                        "value": -0.15
+                    },
+                    {
+                        "value_behavior": "scalar",
+                        "modifier_type": "damage",
+                        "value": 0.09
+                    },
+                    {
+                        "value_behavior": "additive",
+                        "modifier_type": "bypass_shields_chance",
+                        "value": 0.12,
+                        "tags": [
+                            "phasemissile"]
+                    }]
+                },
+                "utility":
+                {
+                    "unit_modifiers": [
+                    {
+                        "modifier_type": "ability_antimatter_cost",
+                        "value_behavior": "scalar",
+                        "value": -0.36
+                    },
+                    {
+                        "modifier_type": "ability_cooldown_duration",
+                        "value_behavior": "scalar",
+                        "value": -0.36
+                    }]
+                }
+            }
+        }],
+        "base_phase_resonance_bonus_duration": 120.0
+    },
+    "max_supply":
+    {
+        "levels": [
+        {
+            "max_supply": 120
+        },
+        {
+            "max_supply": 300,
+            "prerequisites": [
+                ["vasari_max_supply_0"]
+            ]
+        },
+        {
+            "max_supply": 600,
+            "prerequisites": [
+                ["vasari_max_supply_1"]
+            ]
+        },
+        {
+            "max_supply": 900,
+            "prerequisites": [
+                ["vasari_max_supply_2"]
+            ]
+        },
+        {
+            "max_supply": 1500,
+            "prerequisites": [
+                ["vasari_max_supply_3"]
+            ]
+        },
+        {
+            "max_supply": 2100,
+            "prerequisites": [
+                ["vasari_max_supply_4"]
+            ]
+        },
+        {
+            "max_supply": 2400,
+            "prerequisites": [
+                ["vasari_max_supply_5"]
+            ]
+        }]
+    },
+    "unit_starting_experience":
+    {
+        "levels": [
+        {
+            "starting_experience": 200.0,
+            "prerequisites": [
+                ["vasari_capital_ship_starting_level_0"]
+            ]
+        },
+        {
+            "starting_experience": 700.0,
+            "prerequisites": [
+                ["vasari_capital_ship_starting_level_1"]
+            ]
+        }]
+    },
+    "gui":
+    {
+        "hud_skin_name": "vasari_hud_skin",
+        "race_name": "player_race_name.vasari",
+        "race_description": "player_race_description.vasari",
+        "faction_name": "player_faction_name.vasari_rebel",
+        "faction_description": "player_faction_description.vasari_rebel",
+        "faction_icon": "vasari_rebel_faction_icon",
+        "load_screen_character_brush": "vasari_load_screen_character",
+        "no_credit_income_description": "vasari_no_credit_income_description",
+        "player_slot_plate": "vasari_rebel_player_slot_plate"
+    },
+    "unit_names": [
+    {
+        "group_name": "capital_ship",
+        "localized_text":
+        {
+            "id_prefix": "capital_ship_name.vasari"
+        }
+    },
+    {
+        "group_name": "fleet",
+        "localized_text":
+        {
+            "id_prefix": "fleet_name.vasari"
+        }
+    },
+    {
+        "group_name": "starbase",
+        "localized_text":
+        {
+            "id_prefix": "starbase_name.vasari"
+        }
+    },
+    {
+        "group_name": "titan",
+        "localized_text":
+        {
+            "id_prefix": "titan_name.vasari"
+        }
+    }],
+    "victory_gui":
+    {
+        "types":
+        {
+            "military":
+            {
+                "won_pictures": [
+                    "vasari_victory_picture_0"
+                ],
+                "lost_pictures": [
+                    "vasari_defeat_picture_0"
+                ],
+                "won_texts": [
+                {
+                    "status": "player_victory.status.military.won",
+                    "phrase": "player_victory.phrase.military.won.vasari"
+                }],
+                "lost_texts": [
+                {
+                    "status": "player_victory.status.military.lost",
+                    "phrase": "player_victory.phrase.military.lost.vasari"
+                }]
+            },
+            "home_planet":
+            {
+                "won_pictures": [
+                    "vasari_victory_picture_0"
+                ],
+                "lost_pictures": [
+                    "vasari_defeat_picture_0"
+                ],
+                "won_texts": [
+                {
+                    "status": "player_victory.status.home_planet.won",
+                    "phrase": "player_victory.phrase.home_planet.won.vasari"
+                }],
+                "lost_texts": [
+                {
+                    "status": "player_victory.status.home_planet.lost",
+                    "phrase": "player_victory.phrase.home_planet.lost.vasari"
+                }]
+            },
+            "diplomatic":
+            {
+                "won_pictures": [
+                    "vasari_victory_picture_0"
+                ],
+                "lost_pictures": [
+                    "vasari_defeat_picture_0"
+                ],
+                "won_texts": [
+                {
+                    "status": "player_victory.status.diplomatic.won",
+                    "phrase": "player_victory.phrase.diplomatic.won.vasari"
+                }],
+                "lost_texts": [
+                {
+                    "status": "player_victory.status.diplomatic.lost",
+                    "phrase": "player_victory.phrase.diplomatic.lost.vasari"
+                }]
+            },
+            "colonization":
+            {
+                "won_pictures": [
+                    "vasari_victory_picture_0"
+                ],
+                "lost_pictures": [
+                    "vasari_defeat_picture_0"
+                ],
+                "won_texts": [
+                {
+                    "status": "player_victory.status.colonization.won",
+                    "phrase": "player_victory.phrase.colonization.won.vasari"
+                }],
+                "lost_texts": [
+                {
+                    "status": "player_victory.status.colonization.lost",
+                    "phrase": "player_victory.phrase.colonization.lost.vasari"
+                }]
+            }
+        }
+    },
+    "sounds":
+    {
+        "user_interface_sounds":
+        {
+            "set_rally_point":
+            {
+                "sound": "ui_set_rally_point",
+                "is_dialogue": false
+            },
+            "set_unit_factory_deliverable_destination":
+            {
+                "sound": "ui_set_rally_point",
+                "is_dialogue": false
+            },
+            "build_structure":
+            {
+                "sound": "ui_build_structure",
+                "is_dialogue": false
+            },
+            "set_planet_structure_plate_spin":
+            {
+                "sound": "ui_build_structure",
+                "is_dialogue": false
+            },
+            "ping_attention":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "ping_attack":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "ping_defend":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "ping_received_attention":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "ping_received_attack":
+            {
+                "sound": "vasari_narrator_ping_received_attack",
+                "is_dialogue": true
+            },
+            "ping_received_defend":
+            {
+                "sound": "vasari_narrator_ping_received_defend",
+                "is_dialogue": true
+            },
+            "control_group_created":
+            {
+                "sound": "vasari_narrator_control_group_created",
+                "is_dialogue": true
+            },
+            "civilian_research_subject_completed":
+            {
+                "sound": "vasari_narrator_civilian_research_subject_completed",
+                "is_dialogue": true
+            },
+            "military_research_subject_completed":
+            {
+                "sound": "vasari_narrator_military_research_subject_completed",
+                "is_dialogue": true
+            },
+            "victory_condition_alliance_guard_research_subject_completed":
+            {
+                "sound": "vasari_narrator_victory_condition_alliance_guard_research_subject_completed",
+                "is_dialogue": true
+            },
+            "ally_victory_condition_alliance_guard_research_subject_completed":
+            {
+                "sound": "vasari_narrator_ally_victory_condition_alliance_guard_research_subject_completed",
+                "is_dialogue": true
+            },
+            "civilian_research_domain_tier_acquired":
+            {
+                "sound": "vasari_narrator_civilian_research_domain_tier_acquired",
+                "is_dialogue": true
+            },
+            "military_research_domain_tier_acquired":
+            {
+                "sound": "vasari_narrator_military_research_domain_tier_acquired",
+                "is_dialogue": true
+            },
+            "planet_being_bombed":
+            {
+                "sound": "vasari_narrator_planet_being_bombed",
+                "is_dialogue": true
+            },
+            "ally_planet_being_bombed":
+            {
+                "sound": "vasari_narrator_ally_planet_being_bombed",
+                "is_dialogue": true
+            },
+            "planet_discovered":
+            {
+                "sound": "vasari_narrator_planet_discovered",
+                "is_dialogue": true
+            },
+            "planet_colonized":
+            {
+                "sound": "vasari_narrator_planet_colonized",
+                "is_dialogue": true
+            },
+            "planet_lost":
+            {
+                "sound": "vasari_narrator_planet_lost",
+                "is_dialogue": true
+            },
+            "ally_planet_lost":
+            {
+                "sound": "vasari_narrator_ally_planet_lost",
+                "is_dialogue": true
+            },
+            "capital_planet_changed":
+            {
+                "sound": "vasari_narrator_capital_planet_changed",
+                "is_dialogue": true
+            },
+            "capital_planet_being_bombed":
+            {
+                "sound": "vasari_narrator_capital_planet_being_bombed",
+                "is_dialogue": true
+            },
+            "ally_capital_planet_being_bombed":
+            {
+                "sound": "vasari_narrator_ally_capital_planet_being_bombed",
+                "is_dialogue": true
+            },
+            "capital_planet_nearly_lost":
+            {
+                "sound": "vasari_narrator_capital_planet_nearly_lost",
+                "is_dialogue": true
+            },
+            "capital_planet_lost":
+            {
+                "sound": "vasari_narrator_capital_planet_lost",
+                "is_dialogue": true
+            },
+            "ally_capital_planet_lost":
+            {
+                "sound": "vasari_narrator_ally_capital_planet_lost",
+                "is_dialogue": true
+            },
+            "enemy_capital_planet_lost":
+            {
+                "sound": "vasari_narrator_enemy_capital_planet_lost",
+                "is_dialogue": true
+            },
+            "player_won":
+            {
+                "sound": "vasari_narrator_player_won",
+                "is_dialogue": true
+            },
+            "player_won_diplomatic":
+            {
+                "sound": "vasari_narrator_player_won_diplomatic",
+                "is_dialogue": true
+            },
+            "player_lost":
+            {
+                "sound": "vasari_narrator_player_lost",
+                "is_dialogue": true
+            },
+            "ally_player_lost":
+            {
+                "sound": "vasari_narrator_ally_player_lost",
+                "is_dialogue": true
+            },
+            "enemy_player_lost":
+            {
+                "sound": "vasari_narrator_enemy_player_lost",
+                "is_dialogue": true
+            },
+            "enemy_player_lost_by_player":
+            {
+                "sound": "vasari_narrator_enemy_player_lost_by_player",
+                "is_dialogue": true
+            },
+            "nothing_surveyed":
+            {
+                "sound": "vasari_narrator_nothing_surveyed",
+                "is_dialogue": true
+            },
+            "exotics_surveyed":
+            {
+                "sound": "vasari_narrator_exotics_surveyed",
+                "is_dialogue": true
+            },
+            "planet_artifact_surveyed":
+            {
+                "sound": "vasari_narrator_planet_artifact_surveyed",
+                "is_dialogue": true
+            },
+            "planet_bonus_surveyed":
+            {
+                "sound": "vasari_narrator_planet_bonus_surveyed",
+                "is_dialogue": true
+            },
+            "planet_track_upgrade_defense_completed":
+            {
+                "sound": "vasari_narrator_planet_track_upgrade_defense_completed",
+                "is_dialogue": true
+            },
+            "planet_track_upgrade_logistics_completed":
+            {
+                "sound": "vasari_narrator_planet_track_upgrade_logistics_completed",
+                "is_dialogue": true
+            },
+            "planet_track_upgrade_commerce_completed":
+            {
+                "sound": "vasari_narrator_planet_track_upgrade_commerce_completed",
+                "is_dialogue": true
+            },
+            "planet_track_upgrade_mining_completed":
+            {
+                "sound": "vasari_narrator_planet_track_upgrade_mining_completed",
+                "is_dialogue": true
+            },
+            "planet_track_upgrade_research_completed":
+            {
+                "sound": "vasari_narrator_planet_track_upgrade_research_completed",
+                "is_dialogue": true
+            },
+            "planet_component_finished_building":
+            {
+                "sound": "vasari_narrator_planet_component_finished_building",
+                "is_dialogue": true
+            },
+            "orbital_cannon_shell_detected":
+            {
+                "sound": "vasari_narrator_orbital_cannon_shell_detected",
+                "is_dialogue": true
+            },
+            "enemy_units_incoming":
+            {
+                "sound": "vasari_narrator_enemy_units_incoming",
+                "is_dialogue": true
+            },
+            "enemy_units_arrived":
+            {
+                "sound": "vasari_narrator_enemy_units_arrived",
+                "is_dialogue": true
+            },
+            "enemy_planet_made_dead_from_bombing":
+            {
+                "sound": "vasari_narrator_enemy_planet_made_dead_from_bombing",
+                "is_dialogue": true
+            },
+            "pirate_units_arrived":
+            {
+                "sound": "vasari_narrator_pirate_units_arrived",
+                "is_dialogue": true
+            },
+            "ally_special_operations_units_arrived":
+            {
+                "sound": "vasari_narrator_ally_special_operations_units_arrived",
+                "is_dialogue": true
+            },
+            "enemy_special_operations_units_arrived":
+            {
+                "sound": "vasari_narrator_enemy_special_operations_units_arrived",
+                "is_dialogue": true
+            },
+            "insufficient_credits":
+            {
+                "sound": "vasari_narrator_insufficient_credits",
+                "is_dialogue": true
+            },
+            "insufficient_metal":
+            {
+                "sound": "vasari_narrator_insufficient_metal",
+                "is_dialogue": true
+            },
+            "insufficient_crystal":
+            {
+                "sound": "vasari_narrator_insufficient_crystal",
+                "is_dialogue": true
+            },
+            "insufficient_civilian_structure_slots":
+            {
+                "sound": "vasari_narrator_insufficient_civilian_structure_slots",
+                "is_dialogue": true
+            },
+            "insufficient_civilian_structure_slots_at_max":
+            {
+                "sound": "vasari_narrator_insufficient_civilian_structure_slots_at_max",
+                "is_dialogue": true
+            },
+            "insufficient_military_structure_slots":
+            {
+                "sound": "vasari_narrator_insufficient_military_structure_slots",
+                "is_dialogue": true
+            },
+            "insufficient_military_structure_slots_at_max":
+            {
+                "sound": "vasari_narrator_insufficient_military_structure_slots_at_max",
+                "is_dialogue": true
+            },
+            "insufficient_unit_supply":
+            {
+                "sound": "vasari_narrator_insufficient_unit_supply",
+                "is_dialogue": true
+            },
+            "insufficient_unit_supply_at_max_supply":
+            {
+                "sound": "vasari_narrator_insufficient_unit_supply_at_max_supply",
+                "is_dialogue": true
+            },
+            "insufficient_antimatter":
+            {
+                "sound": "vasari_narrator_insufficient_antimatter",
+                "is_dialogue": true
+            },
+            "research_prerequisites_not_met":
+            {
+                "sound": "vasari_research_prerequisites_not_met",
+                "is_dialogue": true
+            },
+            "wormhole_travel_research_prerequisites_not_met":
+            {
+                "sound": "vasari_research_prerequisites_not_met",
+                "is_dialogue": true
+            },
+            "insufficient_civilian_research_points":
+            {
+                "sound": "vasari_narrator_insufficient_civilian_research_points",
+                "is_dialogue": true
+            },
+            "insufficient_military_research_points":
+            {
+                "sound": "vasari_narrator_insufficient_military_research_points",
+                "is_dialogue": true
+            },
+            "position_has_overlapped_unit":
+            {
+                "sound": "vasari_narrator_position_has_overlapped_unit",
+                "is_dialogue": true
+            },
+            "click_failed":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "generic_order_issued":
+            {
+                "sound": "ui_order_issued",
+                "is_dialogue": false
+            },
+            "generic_attack_order_issued":
+            {
+                "sound": "ui_attack_order_issued",
+                "is_dialogue": false
+            },
+            "generic_cannot_hyperspace":
+            {
+                "sound": "vasari_narrator_generic_cannot_hyperspace",
+                "is_dialogue": true
+            },
+            "generic_joined_fleet":
+            {
+                "sound": "vasari_narrator_generic_joined_fleet",
+                "is_dialogue": true
+            },
+            "fleet_created":
+            {
+                "sound": "vasari_narrator_fleet_created",
+                "is_dialogue": true
+            },
+            "sell_npc_market_asset":
+            {
+                "sound": "button_pressed",
+                "is_dialogue": false
+            },
+            "buy_npc_market_asset":
+            {
+                "sound": "button_pressed",
+                "is_dialogue": false
+            },
+            "npc_metal_market_exclusive_player_started_positive":
+            {
+                "sound": "vasari_narrator_npc_metal_market_exclusive_player_started_positive",
+                "is_dialogue": true
+            },
+            "npc_metal_market_exclusive_player_started_negative":
+            {
+                "sound": "vasari_narrator_npc_metal_market_exclusive_player_started_negative",
+                "is_dialogue": true
+            },
+            "npc_crystal_market_exclusive_player_started_positive":
+            {
+                "sound": "vasari_narrator_npc_crystal_market_exclusive_player_started_positive",
+                "is_dialogue": true
+            },
+            "npc_crystal_market_exclusive_player_started_negative":
+            {
+                "sound": "vasari_narrator_npc_crystal_market_exclusive_player_started_negative",
+                "is_dialogue": true
+            },
+            "ally_capital_ship_destroyed":
+            {
+                "sound": "vasari_narrator_ally_capital_ship_destroyed",
+                "is_dialogue": true
+            },
+            "ally_starbase_destroyed":
+            {
+                "sound": "vasari_narrator_ally_starbase_destroyed",
+                "is_dialogue": true
+            },
+            "ally_titan_destroyed":
+            {
+                "sound": "vasari_narrator_ally_titan_destroyed",
+                "is_dialogue": true
+            },
+            "ally_titan_built":
+            {
+                "sound": "vasari_narrator_ally_titan_built",
+                "is_dialogue": true
+            },
+            "enemy_titan_built":
+            {
+                "sound": "vasari_narrator_enemy_titan_built",
+                "is_dialogue": true
+            },
+            "military_structure_built":
+            {
+                "sound": "vasari_narrator_military_structure_built",
+                "is_dialogue": true
+            },
+            "civilian_structure_built":
+            {
+                "sound": "vasari_narrator_civilian_structure_built",
+                "is_dialogue": true
+            },
+            "enemy_phase_jump_inhibitor_built":
+            {
+                "sound": "vasari_narrator_enemy_phase_jump_inhibitor_built",
+                "is_dialogue": true
+            },
+            "player_units_arrived_at_enemy_phase_jump_inhibitor":
+            {
+                "sound": "vasari_narrator_player_units_arrived_at_enemy_phase_jump_inhibitor",
+                "is_dialogue": true
+            },
+            "fleet_arrived":
+            {
+                "sound": "vasari_narrator_fleet_arrived",
+                "is_dialogue": true
+            },
+            "ally_fleet_arrived":
+            {
+                "sound": "vasari_narrator_ally_fleet_arrived",
+                "is_dialogue": true
+            },
+            "reinforcing_fleet_arrived":
+            {
+                "sound": "vasari_narrator_reinforcing_fleet_arrived",
+                "is_dialogue": true
+            },
+            "ally_reinforcing_fleet_arrived":
+            {
+                "sound": "vasari_narrator_ally_reinforcing_fleet_arrived",
+                "is_dialogue": true
+            },
+            "ally_reinforcing_fleet_incoming":
+            {
+                "sound": "vasari_narrator_ally_reinforcing_fleet_incoming",
+                "is_dialogue": true
+            },
+            "fleet_under_attack":
+            {
+                "sound": "vasari_narrator_fleet_under_attack",
+                "is_dialogue": true
+            },
+            "ally_fleet_under_attack":
+            {
+                "sound": "vasari_narrator_ally_fleet_under_attack",
+                "is_dialogue": true
+            },
+            "destroy_planet_started":
+            {
+                "sound": "vasari_narrator_destroy_planet_started",
+                "is_dialogue": true
+            },
+            "destroy_planet_rewards_given":
+            {
+                "sound": "vasari_narrator_destroy_planet_rewards_given",
+                "is_dialogue": true
+            },
+            "game_paused":
+            {
+                "sound": "vasari_narrator_game_paused",
+                "is_dialogue": true
+            },
+            "game_unpaused":
+            {
+                "sound": "vasari_narrator_game_unpaused",
+                "is_dialogue": true
+            },
+            "small_unit_factory_needed":
+            {
+                "sound": "vasari_narrator_small_unit_factory_needed",
+                "is_dialogue": true
+            },
+            "medium_unit_factory_needed":
+            {
+                "sound": "vasari_narrator_medium_unit_factory_needed",
+                "is_dialogue": true
+            },
+            "large_unit_factory_needed":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "insufficient_offense_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_offense_exotics",
+                "is_dialogue": true
+            },
+            "insufficient_defense_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_defense_exotics",
+                "is_dialogue": true
+            },
+            "insufficient_utility_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_utility_exotics",
+                "is_dialogue": true
+            },
+            "insufficient_economic_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_economic_exotics",
+                "is_dialogue": true
+            },
+            "insufficient_ultimate_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_ultimate_exotics",
+                "is_dialogue": true
+            },
+            "insufficient_generic_exotics":
+            {
+                "sound": "vasari_narrator_insufficient_generic_exotics",
+                "is_dialogue": true
+            },
+            "scuttle_planet_started":
+            {
+                "sound": "vasari_narrator_scuttle_planet_started",
+                "is_dialogue": true
+            },
+            "scuttle_unit_started":
+            {
+                "sound": "vasari_narrator_scuttle_unit_started",
+                "is_dialogue": true
+            },
+            "insufficient_unity_points":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "insufficient_unity_mana":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "unity_ability_cooldown_is_not_completed":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "player_added_first_ruler_ship":
+            {
+                "sound": "vasari_narrator_player_added_first_ruler_ship",
+                "is_dialogue": true
+            },
+            "planet_conversion_started":
+            {
+                "sound": "vasari_narrator_planet_conversion_started",
+                "is_dialogue": true
+            },
+            "planet_conversion_colonized":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "alliance_offered_cease_fire":
+            {
+                "sound": "vasari_narrator_alliance_offered_cease_fire",
+                "is_dialogue": true
+            },
+            "alliance_offered_share_vision":
+            {
+                "sound": "vasari_narrator_alliance_offered_share_vision",
+                "is_dialogue": true
+            },
+            "alliance_offered_synergy":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "alliance_accepted_cease_fire":
+            {
+                "sound": "vasari_narrator_alliance_accepted_cease_fire",
+                "is_dialogue": true
+            },
+            "alliance_accepted_share_vision":
+            {
+                "sound": "vasari_narrator_alliance_accepted_share_vision",
+                "is_dialogue": true
+            },
+            "alliance_accepted_synergy":
+            {
+                "sound": "ui_common_ping",
+                "is_dialogue": false
+            },
+            "alliance_broken_cease_fire":
+            {
+                "sound": "vasari_narrator_alliance_broken_cease_fire",
+                "is_dialogue": true
+            },
+            "alliance_offered_share_vision_aggressive":
+            {
+                "sound": "vasari_narrator_alliance_offered_share_vision_aggressive",
+                "is_dialogue": true
+            },
+            "alliance_offered_synergy_aggressive":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "alliance_accepted_share_vision_aggressive":
+            {
+                "sound": "vasari_narrator_alliance_accepted_share_vision_aggressive",
+                "is_dialogue": true
+            },
+            "alliance_accepted_synergy_aggressive":
+            {
+                "sound": "ui_default_error",
+                "is_dialogue": false
+            },
+            "alliance_broken_cease_fire_aggressive":
+            {
+                "sound": "vasari_narrator_alliance_broken_cease_fire_aggressive",
+                "is_dialogue": true
+            },
+            "artifact_captured":
+            {
+                "sound": "vasari_narrator_artifact_captured",
+                "is_dialogue": true
+            }
+        },
+        "unit_build_kind_sounds": [
+        {
+            "build_kind": "corvette",
+            "sound_id": "small_unit_factory_needed"
+        },
+        {
+            "build_kind": "frigate",
+            "sound_id": "small_unit_factory_needed"
+        },
+        {
+            "build_kind": "cruiser",
+            "sound_id": "small_unit_factory_needed"
+        },
+        {
+            "build_kind": "capital_ship",
+            "sound_id": "medium_unit_factory_needed"
+        },
+        {
+            "build_kind": "titan",
+            "sound_id": "medium_unit_factory_needed"
+        }]
+    },
+    "ai":
+    {
+        "names":
+        {
+            "id_prefix": "player_ai_name.vasari."
+        },
+        "alliance_offer_decline_reasons":
+        {
+            "cannot_give_away_home_or_last_planet": "player_ai_alliance_offer_decline_reason.cannot_give_away_home_or_last_planet",
+            "could_not_accept_due_to_insufficient_assets": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_insufficient_assets",
+            "could_not_accept_due_to_insufficient_exotics": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_insufficient_exotics",
+            "could_not_accept_due_to_other_reasons": "player_ai_alliance_offer_decline_reason.could_not_accept_due_to_other_reasons",
+            "cease_fire_required_before_other_alliances": "player_ai_alliance_offer_decline_reason.cease_fire_required_before_other_alliances",
+            "cease_fire_minimum_duration_required_before_other_alliances": "player_ai_alliance_offer_decline_reason.cease_fire_minimum_duration_required_before_other_alliances",
+            "alliance_must_not_have_other_demands": "player_ai_alliance_offer_decline_reason.alliance_must_not_have_other_demands",
+            "alliance_refused": "player_ai_alliance_offer_decline_reason.alliance_refused",
+            "give_planets_requires_synergy_alliance": "player_ai_alliance_offer_decline_reason.give_planets_requires_synergy_alliance",
+            "already_given_planet_recently": "player_ai_alliance_offer_decline_reason.already_given_planet_recently",
+            "trade_is_not_reasonable": "player_ai_alliance_offer_decline_reason.trade_is_not_reasonable"
+        }
+    },
+    "theme_picker_mesh_preview_units": [
+        "vasari_carrier_capital_ship",
+        "vasari_light_frigate",
+        "vasari_starbase"
+    ],
+    "theme_picker_skybox": "skybox_cloud_16"
+}

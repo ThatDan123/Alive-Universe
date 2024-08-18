@@ -1,0 +1,117 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 85.144005,
+        "box":
+        {
+            "center": [1e-06, -0.031673, -9.492069],
+            "extents": [29.24725, 7.561948, 74.485947]
+        },
+        "collision_rank": 1
+    },
+    "physics":
+    {
+        "can_move_linear": true,
+        "max_linear_speed": 500.0,
+        "time_to_max_linear_speed": 10.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [1.0, 2.0],
+        "can_move_angular": true,
+        "max_angular_speed": 22.580328,
+        "time_to_max_angular_speed": 13.685047,
+        "max_bank_angle": 35.0,
+        "death_angular_speed_range": [5.0, 10.0],
+        "linear_acceleration_angle": 90.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 50.0,
+        "time_to_strafe_max_linear_speed": 4.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace":
+    {
+        "speed": 155000.0,
+        "speed_between_stars": 465000.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move":
+    {
+        "follow_distance": 505.748352
+    },
+    "ai":
+    {
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ],
+        "auto_follow_target_priority": -1.0
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false
+    },
+    "user_interface":
+    {
+        "can_be_controlled": false,
+        "can_ever_be_selected": true,
+        "has_sub_selection_grouping": true,
+        "can_move": true,
+        "can_show_distance_to_plane_line": true,
+        "can_rotate": true
+    },
+    "formation":
+    {
+        "leader_priority": 1,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 3,
+                "group": 0
+            }
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 0.8,
+        "durability": 200.0,
+        "levels": [
+        {
+            "max_hull_points": 600.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "max_armor_points": 300.0,
+            "armor_point_restore_rate": 1.2,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_strength": 20.0,
+            "shield_point_restore_rate": 2.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_burst_restore":
+            {
+                "cooldown_duration": 30.0,
+                "restore_percentage": 0.5
+            },
+            "experience_given_on_death": 3.0
+        }]
+    },
+    "target_filter_unit_type": "frigate",
+    "tags": [
+        "frigate"
+    ],
+    "will_notify_enemy_player_when_entering_gravity_well_override": false,
+    "skin_groups": [
+    {
+        "skins": [
+            "vasari_trade_ship"
+        ]
+    }],
+    "action_effect_size": "small_unit"
+}

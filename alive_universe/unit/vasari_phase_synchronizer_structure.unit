@@ -1,0 +1,112 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 751.625549,
+        "box":
+        {
+            "center": [-0.000671, 104.315338, 71.424316],
+            "extents": [595.098816, 538.040527, 570.069641]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics":
+    {},
+    "ai":
+    {
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"]
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false
+    },
+    "user_interface":
+    {
+        "pip_type": "frigate",
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "civilian_structure"
+    },
+    "structure":
+    {
+        "slot_type": "civilian",
+        "slots_required": 1,
+        "roles": [],
+        "build_group_id": "civilian"
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [14, 18],
+            "large_debris": [3, 5]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "durability": 600.0,
+        "levels": [
+        {
+            "max_hull_points": 2400.0,
+            "hull_point_restore_rate": 4.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "max_armor_points": 360.0,
+            "armor_point_restore_rate": 3.2,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_strength": 96.0,
+            "experience_given_on_death": 25.0
+        }]
+    },
+    "build":
+    {
+        "build_time": 60.0,
+        "price":
+        {
+            "metal": 240.0,
+            "crystal": 120.0
+        },
+        "prerequisites": [
+            ["vasari_unlock_phase_synchronizer_structure"]
+        ],
+        "build_kind": "structure",
+        "build_radius": 824.088562
+    },
+    "trade_port":
+    {
+        "max_trade_ship_count": 3,
+        "trade_ship_construction_time": 60.0,
+        "trade_ship": "vasari_trade_ship",
+        "special_operation_unit_kind": "trade_ship",
+        "create_trade_ship_offset": [0.0, 0.0, 1500.0]
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 10,
+    "is_phase_resonance_synchronizer": true,
+    "skin_groups": [
+    {
+        "skins": [
+            "vasari_phase_synchronizer_structure"]
+    }],
+    "action_effect_size": "medium_unit"
+}
