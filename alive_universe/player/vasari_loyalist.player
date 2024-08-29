@@ -36,7 +36,8 @@
         {
             "metal": 1600.0,
             "crystal": 1600.0
-        }
+        },
+        "establish_duration": 300
     },
     "influence":
     {
@@ -1566,7 +1567,7 @@
                 "prerequisites": [
                     ["vasari_upgrade_ferrous_biosphere_1"]
                 ],
-                "max_planet_component_slots": 3,
+                "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 9,
                 "structure_builder_count": 3,
                 "max_health_points": 450
@@ -1871,7 +1872,7 @@
                 "prerequisites": [
                     ["vasari_upgrade_ice_biosphere_0"]
                 ],
-                "max_planet_component_slots": 3,
+                "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 9,
                 "structure_builder_count": 3,
                 "max_health_points": 300
@@ -2644,7 +2645,7 @@
                 "prerequisites": [
                     ["vasari_upgrade_volcanic_biosphere_0"]
                 ],
-                "max_planet_component_slots": 3,
+                "max_planet_component_slots": 4,
                 "max_civilian_structure_slots": 9,
                 "structure_builder_count": 3,
                 "max_health_points": 300
