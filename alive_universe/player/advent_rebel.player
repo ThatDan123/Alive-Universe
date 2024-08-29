@@ -68,7 +68,8 @@
             "credits": 2000.0,
             "metal": 1000.0,
             "crystal": 1000.0
-        }
+        },
+        "establish_duration": 300
     },
     "influence":
     {
@@ -882,6 +883,7 @@
             "advent_unlock_cynosural_reservoir_unit_item",
             "advent_unlock_defense_cruiser",
             "advent_unlock_deliverance_engine_structure",
+            "advent_unlock_deliverance_engine_structure_rebel_ability",
             "advent_unlock_deploy_starbase_unit_item",
             "advent_unlock_detection_with_culture",
             "advent_unlock_empyrean_city_unit_item",
@@ -963,6 +965,7 @@
             "advent_upgrade_culture_rate_0",
             "advent_upgrade_culture_rate_1",
             "advent_upgrade_culture_rate_2",
+            "advent_upgrade_deliverance_engine_structure_rebel_ability",
             "advent_upgrade_desert_planets_0",
             "advent_upgrade_desert_planets_1",
             "advent_upgrade_energy_booster_unit_item",
@@ -2901,13 +2904,7 @@
     {
         "base_max_mana": 0.0,
         "base_mana_restore_rate": 0.0,
-        "abilities": [
-            "advent_unity_clairvoyance",
-            "advent_unity_recall",
-            "advent_unity_sanctify",
-            "advent_unity_proselytize",
-            "advent_unity_conversion"
-        ]
+        "unity_agent": "advent_unity_agent"
     },
     "max_supply":
     {
