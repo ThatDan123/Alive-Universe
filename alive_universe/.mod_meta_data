@@ -1,0 +1,19 @@
+{
+    "compatibility_version": 2,
+    "display_name": "Alive Universe",
+    "display_version": "1.1",
+    "short_description": "Makes the universe more alive for the Advent and Vasari with unqiue trade ships. The Vasari Phase Resonator produces Phase Technician Transports. The Advent Temple of Unity produces Pilgrim Transports. Unfortunately NOT compatible with most mods.",
+    "long_description": "<p>The Vasari <strong>Phase Resonator</strong> produces Phase Technician Transports.</p>
+                         <p>&nbsp;</p>
+                         <p>The Advent&nbsp;<strong>Temple of Unity</strong> produces Pilgrim Transports.</p>
+                         <p>&nbsp;</p>
+                         <p>These ships produce no value but when killed give 50 credits.</p>
+                         <p>&nbsp;</p>
+                         <p>Uses the TEC trade ship model for the moment.</p>
+                         <p>&nbsp;</p>
+                         <p>Unfortunately NOT compatible with most mods due to how the mod loader works.</p>",
+    "logos": {
+        "small_logo": "alive_universe_logo.png",
+        "large_logo": "alive_universe_logo.png"      
+    }
+}
