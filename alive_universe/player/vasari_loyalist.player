@@ -3082,7 +3082,7 @@
                 {
                     "unit_modifiers": [
                     {
-                        "modifier_type": "max_linear_speed",
+                        "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
                         "value": 0.12
                     }]
@@ -3115,7 +3115,7 @@
                 {
                     "unit_modifiers": [
                     {
-                        "modifier_type": "max_linear_speed",
+                        "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
                         "value": 0.18
                     }]
@@ -3148,14 +3148,14 @@
                 {
                     "unit_modifiers": [
                     {
-                        "modifier_type": "max_linear_speed",
+                        "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
                         "value": 0.24
                     },
                     {
-                        "modifier_type": "hyperspace_speed",
+                        "modifier_type": "max_linear_speed",
                         "value_behavior": "scalar",
-                        "value": 0.12
+                        "value": 0.06
                     }]
                 },
                 "combat":
@@ -3196,14 +3196,14 @@
                 {
                     "unit_modifiers": [
                     {
-                        "modifier_type": "max_linear_speed",
+                        "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
                         "value": 0.3
                     },
                     {
-                        "modifier_type": "hyperspace_speed",
+                        "modifier_type": "max_linear_speed",
                         "value_behavior": "scalar",
-                        "value": 0.24
+                        "value": 0.12
                     }]
                 },
                 "combat":
@@ -3251,14 +3251,14 @@
                 {
                     "unit_modifiers": [
                     {
-                        "modifier_type": "max_linear_speed",
+                        "modifier_type": "hyperspace_speed",
                         "value_behavior": "scalar",
                         "value": 0.36
                     },
                     {
-                        "modifier_type": "hyperspace_speed",
+                        "modifier_type": "max_linear_speed",
                         "value_behavior": "scalar",
-                        "value": 0.36
+                        "value": 0.18
                     }]
                 },
                 "combat":

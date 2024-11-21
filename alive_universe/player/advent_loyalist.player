@@ -57,8 +57,9 @@
         "starting_track_levels":
         {
             "logistics": 1,
+            "defense": 1,
             "commerce": 2,
-            "mining": 1
+            "mining": 3
         },
         "starting_planet_components": [
             "advent_loyalist_homeworld_temple_of_pilgrimage"
@@ -522,7 +523,7 @@
         "advent_culture_center_structure",
         "advent_exotic_factory_structure",
         "advent_unity_structure",
-        "advent_laser_defense_structure",
+		"advent_laser_defense_structure",
         "advent_temple_of_renewal_structure",
         "advent_beam_defense_structure",
         "advent_phase_jump_inhibitor_structure",
@@ -901,6 +902,7 @@
             "advent_unlock_hangar_defense_structure",
             "advent_unlock_harmony_circuit_unit_item",
             "advent_unlock_haven_dome_unit_item",
+            "advent_unlock_heathen_quarter_unit_item",													  
             "advent_unlock_heavy_cruiser",
             "advent_unlock_hyperspace_between_stars",
             "advent_unlock_ice_biosphere",
@@ -1096,8 +1098,9 @@
         "advent_neuroaugment_center",
         "advent_plasma_furnace",
         "advent_silent_monastery",
-        "advent_temple_of_pilgrimage",
         "advent_unity_protectorate",
+        "advent_heathen_quarter",
+        "advent_temple_of_pilgrimage",
         "advent_temple_of_assimilation"
     ],
     "faction_planet_components": [
